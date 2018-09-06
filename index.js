@@ -41,7 +41,7 @@ class Route {
 
   estimatedTime(minutes) {
     const offPeak = blocksTravelled(horizontal, vertical);
-    const Peak =
+    const Peak = 5;
   }
 
 }
