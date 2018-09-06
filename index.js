@@ -35,10 +35,14 @@ class Route {
 
     return Math.abs(horzDist + vertDist);
   }
+
+  // estimatedTime — The method returns the number of minutes estimated for the trip. The estimated time depends on the distance in blocks and whether the trip is occurring during peak hours or off peak hours.
+  // During off peak hours, a driver travels three blocks in a minute, while during peak hours a driver travels an estimated two blocks in a minute.
+  
+  estimatedTime(minutes) {
+    
+  }
 }
 
-// estimatedTime — The method returns the number of minutes estimated for the trip. The estimated time depends on the distance in blocks and whether the trip is occurring during peak hours or off peak hours. 
-// During off peak hours, a driver travels three blocks in a minute, while during peak hours a driver travels an estimated two blocks in a minute.
 
-class estimatedTime extends Route {
-}
+
