@@ -28,7 +28,7 @@ class Route {
     return eastWest.indexOf(integer);
   }
 
-  blocksTravelled(blocks) {
+  blocksTravelled(horizontal, vertical) {
     const horzDist = (this.byAvenue(this.end.horizontal)) - (this.byAvenue(this.begin.horizontal));
 
     const vertDist = (this.end.vertical) - (this.begin.vertical);
