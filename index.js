@@ -40,8 +40,8 @@ class Route {
   // During off peak hours, a driver travels three blocks in a minute, while during peak hours a driver travels an estimated two blocks in a minute.
 
   estimatedTime(minutes) {
-    const offPeak = blocksTravelled(horizontal, vertical);
-    const Peak = 5;
+    const offPeak = blocksTravelled(3);
+    const Peak = blocksTravelled(2);
   }
 
 }
